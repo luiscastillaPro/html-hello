@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container w-100 p-3">
         <div class="nav text-bg-light p-3 d-flex justify-content-between">
             <div class="logo d-inline-flex p-2">
                 <i class="fa-brands fa-instagram fs-3"></i>
@@ -22,28 +22,29 @@
             </div>
             <div class="iconos d-inline-flex p-2">
                 <div class="new_post">
-                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Create a new post
                     </button>
-
-                    <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                    </button>
                                 </div>
                                 <div class="modal-body">
-                                    ...
+                                    <h6>Caption:</h6>
+                                    <textarea class="w-100 p-3"
+                                        placeholder="Add the caption of your post here"></textarea>
+                                    <button class="border border-0"><i class="fa-solid fa-camera"></i></button>
+                                    <button class="border border-0"><i class="fa-solid fa-location-dot"></i></button>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-primary">Publish</button>
                                 </div>
                             </div>
                         </div>
@@ -65,13 +66,113 @@
                 </div>
             </div>
         </div>
-        <div class="body">
-            <div class="Dropdowns d-inline-flex p-2">
-                <div class="mx-auto p-2">
-                    <i class="fa-solid fa-table-cells"></i>
+        <div class="gap-3 mt-3">
+            <div class="d-flex p-2 d-flex justify-content-center">
+                <ul class="nav nav-tabs " id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active border border-0" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link border border-0" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false"> <i class="fa-solid fa-square ms-5"></i></button>
+                    </li>
+                </ul>
+            </div> 
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active border border-0" id="home-tab-pane" role="tabpanel"
+                    aria-labelledby="home-tab" tabindex="0">
+                    <table class="text-center table">
+                        <thead>
+                            <tr>
+                                <th scope="col"><img
+                                        src="https://1.bp.blogspot.com/-RGrQpjj48Mo/WsuJH-wZUAI/AAAAAAAAJzE/1q3DkJDCoQsawd9VXnwOZ81Je6lQE0aEgCLcBGAs/s1600/imagenes-de-paisajes-para-dibujar-bonitos.jpg"
+                                        style="width: 300px; height: 300px;"></th>
+                                <th scope="col"><img
+                                        src="https://wallpapers.com/images/hd/really-cool-cars-black-lamborghini-aventador-j89wi3tkcwuljhj7.jpg"
+                                        style="width: 300px; height: 300px;"></th>
+                                <th scope="col"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEDm7kiracNYbXr4oUFn2fbVqWeIY7btEPA&s"
+                                        style="width: 300px; height: 300px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><img
+                                        src="https://static.elcorreo.com/www/multimedia/202009/24/media/MM-ciudades/01.dubai.jpg"
+                                        style="width: 300px; height: 300px;"></th>
+                                <td><img src="https://forbes.es/wp-content/uploads/2022/11/tecnologia-cambio-futuro-humano.jpg"
+                                        style="width: 300px; height: 300px;"></td>
+                                <td><img src="https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg"
+                                        style="width: 300px; height: 300px;"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img
+                                        src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_52987642_Full.jpg?crop=0%2C233%2C4000%2C2200&wid=4000&hei=2200&scl=1.0"
+                                        style="width: 300px; height: 300px;"></th>
+                                <td><img src="https://i0.wp.com/www.imageneseducativas.com/wp-content/uploads/2023/12/LEO-PELICULA.jpg?fit=686%2C386&ssl=1"
+                                        style="width: 300px; height: 300px;"></td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOdbbKdndz0d5qdIENUjZWhF9cai2hGN2yw&s"
+                                        style="width: 300px; height: 300px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="mx-auto p-2">
-                    <i class="fa-solid fa-square"></i>
+                <div class="tab-pane fade w-75 m-auto" id="profile-tab-pane" role="tabpanel"
+                    aria-labelledby="profile-tab" tabindex="0">
+                    <div class="border p-2 mb-2">
+                        <div class="header-2 m-2">
+                            <div class="d-flex justify-content-between">
+                                <h4> My Crazy dog Spark</h4>
+                                <p>08/26</p>
+                            </div>
+                        </div>
+                        <div class="imagen-2">
+                            <img class="w-100 p-3" src="https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg" alt="">
+                        </div>
+                        <div class="footer-2">
+                            <h4>204 likes</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
+                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
+                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
+                        </div>
+                    </div>
+                    <div class="border p-2 mb-2">
+                        <div class="header-2">
+                            <div class="d-flex justify-content-between">
+                                <h4> my beautiful city</h4>
+                                <p>08/27</p>
+                            </div>
+                        </div>
+                        <div class="imagen-2">
+                            <img class="w-100 p-3" src="https://www.francetourisme.fr/media/ILLU_TOUTBUS/illuminations-de-paris-2.jpg" alt="">
+                        </div>
+                        <div class="footer-2">
+                            <h4>128 likes</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
+                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
+                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
+                        </div>
+                    </div>
+                    <div class="border p-2 mb-2">
+                        <div class="header-2">
+                            <div class="d-flex justify-content-between">
+                                <h4> the bike of my dreams</h4>
+                                <p>08/26</p>
+                            </div>
+                        </div>
+                        <div class="imagen-2">
+                            <img class="w-100 p-3" src="https://blog.inducascos.com/wp-content/uploads/moto_02.jpg" alt="">
+                        </div>
+                        <div class="footer-2">
+                            <h4>2209 likes</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
+                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
+                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,41 @@
+/* *{
+    
+}
+
+.logo{
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav{
+    background-color: rgb(209, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.iconos{
+    display: flex;
+}
+
+.new_post{
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+.logo > h1{
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 5px;
+} */
+ .body{
+    border: 1px solid red
+ }
+
+ .Dropdowns{
+    border: 1px solid red;
+ }
